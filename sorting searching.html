@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sorting and Searching</title>
+	
+		<style type="text/css">
+		.center{
+		    display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;}
+		  </style>
+  </head>
+  <body>
+    <div class="">
+      <h1 align="center">Sorting and Searching</h1>
+	  <h3><br><u>Quicksort</u></h3>
+      <p><br>Like QuickSort, Merge Sort is a Divide and Conquer algorithm.
+	  It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves. 
+	  The merge() function is used for merging two halves. The merge(arr, l, m, r) is a key process that assumes that 
+	  arr[l..m] and arr[m+1..r] are sorted and merges the two sorted sub-arrays into one. </p>
+      <img src="Merge-Sort.png" alt="linked list image" class="center">
+	  
+	  
+	  <h3><br><u>Insertion Sort</u></h3>	  
+	  <p>Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. 
+	  The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed 
+	  at the correct position in the sorted part.<br>
+<u>Algorithm</u><br>
+To sort an array of size n in ascending order:<br>
+1: Iterate from arr[1] to arr[n] over the array.<br>
+2: Compare the current element (key) to its predecessor.<br>
+3: If the key element is smaller than its predecessor, compare it to the elements before. Move the greater elements one position up 
+to make space for the swapped element.</p>
+      <img src="insertionsort.png" alt="linked list image" class="center">
+	  
+	 
+
+
+
+	 <h3><br><u>Selection sort</u></h3>	  
+	  <p><br>The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part 
+	  and putting it at the beginning. The algorithm maintains two subarrays in a given array.
+	<br>
+	1) The subarray which is already sorted.
+	2) Remaining subarray which is unsorted.
+	<br>In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray is 
+	picked and moved to the sorted subarray.</p>
+    </div>
+
+  </body>
+</html>
