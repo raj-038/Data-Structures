@@ -1,4 +1,13 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+p {
+  text-align: left;
+}
 .container-3 {
-  padding: 10px;
-  color: crimson;
+  margin: auto;
+  padding: 15px;
+  background-color: #ef8172;
 }
