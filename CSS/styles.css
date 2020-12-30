@@ -11,3 +11,13 @@ p {
   padding: 15px;
   background-color: #ef8172;
 }
+
+.container-1 {
+  padding : 30px;
+}
+
+table,th,tr {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
